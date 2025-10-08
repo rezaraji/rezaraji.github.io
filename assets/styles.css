@@ -1,0 +1,71 @@
+/* Base styles */
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.6;
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #111;
+}
+
+/* Project cards */
+ul.cards {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1.2rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.cover {
+  width: 100%;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* Footer spacing */
+.content {
+  margin-bottom: 1.5rem;
+}
