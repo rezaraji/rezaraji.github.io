@@ -4,7 +4,8 @@ url: "https://rezaraji.github.io"
 
 # Theme settings
 theme: null
-remote_theme: pages-themes/cayman@v0.2.0
+# remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: poole/lanyon@v1.1.0
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
